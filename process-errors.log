@@ -1,0 +1,8 @@
+[06-Sep-2018 23:33:47 Europe/Berlin] Hello, errors!
+[06-Sep-2018 23:33:59 Europe/Berlin] Hello, errors!
+[06-Sep-2018 23:34:17 Europe/Berlin] Hello, errors!
+[06-Sep-2018 17:34:17 America/New_York] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/westnet/process.php on line 79
+[06-Sep-2018 23:34:25 Europe/Berlin] Hello, errors!
+[06-Sep-2018 17:34:25 America/New_York] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/westnet/process.php on line 79
+[06-Sep-2018 23:35:50 Europe/Berlin] Hello, errors!
+[06-Sep-2018 17:35:50 America/New_York] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/westnet/process.php on line 79

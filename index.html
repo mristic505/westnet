@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title></title>
+</head>
+
+<body class="  wsite-theme-light  wsite-page-coverage">
+    <div id="topstrip">
+        
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+        <script type="text/javascript">jQuery(document).ready(function($){$('#cg2_lp_content').html('<div class="cg2_banner"> <div style="display: table-cell; vertical-align: middle;"> <div class="cg2_banner_text">Stop Paying Too Much for High-Speed Internet.<br>Start Getting More, with AT&T Business Fiber from WestNet.</div></div></div><div class="cg2_intro"> <div class="cg2_right"> <img class="cg2_so" src="special-offer.png"> </div><div class="cg2_left"> <h2 class="cg2_wsite-content-title">Did you know that right now, you can get super-fast internet connectivity, powered by AT&T, at competitive rates from WestNet?</h2> <p class="paragraph">Save time and money, with the reliability and security your company needs, across multiple departments or multiple locations. Wheth er you’re streaming video, sending data or connecting to the cloud, WestNet’s super-fast fiber optic internet delivers.</p></div></div><div class="cg2_table_holder" style="margin:0 auto;max-width: 654px;width: 95%;"> <table class="cg2_table"> <tr> <td style="padding-right:40px;"> <img src="tb-1.png"> </td><td style="padding:20px 0;"> <h2 class="cg2_wsite-content-title">Get more speed.</h2> <p class="paragraph">Upload and download speeds up to 1 Gbps.</p></td></tr><tr> <td style="padding-right:40px;"> <img src="tb-2.png"> </td><td style="padding:20px 0;"> <h2 class="cg2_wsite-content-title">Get more productivity.</h2> <p class="paragraph">With 99% network reliability, your team can connect to each other and to vendors, partners, and customers with confidence.</p></td></tr><tr> <td style="padding-right:40px;"> <img src="tb-3.png"> </td><td style="padding:20px 0;"> <h2 class="cg2_wsite-content-title">Get more support.</h2> <p class="paragraph">Our solutions are backed by WestNet’s fully staffed Network Operating Center, with proactive system monitoring and maintenance, 24/7/365.</p></td></tr><tr> <td style="padding-right:40px;"> <img src="tb-4.png"> </td><td style="padding:20px 0;"> <h2 class="cg2_wsite-content-title">Get more savings.</h2> <p class="paragraph">WestNet’s cost-efficient pricing boosts your bottom line.</p></td></tr></table> </div><div class="cg2_form_holder"> <div class="cg2_frm_desc"> Get our Special Offer: No-charge pre-qualification and one free month of service.*<br><span>Call us at <b>833-WESTNET (937-8638)</b> or fill out our form and we’ll be in touch.</span> </div><form action="process.php" method="POST"> <div class="cg2_frm_left"> <div class="cg2_frm_filed" id="first_name_group"> <input placeholder="FIRST NAME" type="text" name="first_name" id="first_name"> </div><div class="cg2_frm_filed" id="last_name_group"> <input placeholder="LAST NAME" type="text" name="last_name" id="last_name"> </div><div class="cg2_frm_filed" id="company_group"> <input placeholder="COMPANY" type="text" name="company" id="company"> </div><div class="cg2_frm_filed" id="address_group"> <input placeholder="ADDRESS" type="text" name="address" id="address"> </div><div class="cg2_frm_filed" id="zip_group"> <input placeholder="ZIP" type="text" name="zip" id="zip"> </div><div class="cg2_frm_filed" id="email_group"> <input placeholder="EMAIL" type="text" name="email" id="email"> </div></div><div class="cg2_frm_submit cg2_frm_right"> <div class="cg2_frm_filed" id="recaptcha_group"> <div class="g-recaptcha" data-sitekey="6LcP2FQUAAAAAKR6_Fl0U6uw640gCz_0-fHNX-Sk"></div></div><div class="cg2_label">*Offer good with 24-month contract with WestNet.</div><input type="submit" name="submit" id="submit" value="SUBMIT" > </div></form> </div><div class="cg2_att_logos"> <img class="cg2_l_left" src="att-logos.png"> <img class="cg2_l_right" src="att-logo.png"> </div>');$('form').submit(function(event){$('.cg2_frm_filed').removeClass('has-error'); var form_data={first_name : $('#first_name').val(), last_name : $('#last_name').val(), company : $('#company').val(), address : $('#address').val(), zip : $('#zip').val(), email : $('#email').val(), recaptcha: grecaptcha.getResponse()}; $.ajax({type: 'POST', url: 'process.php', data: form_data, dataType: 'json', encode: true}) .done(function(data){console.log(data); if (!data.success){for (var key in data.errors){if (data.errors.hasOwnProperty(key)){$('#'+key+"_group").addClass('has-error'); $('#'+key+"_group").append('<div class="help-block">' + data.errors[key] + '</div>');}}}else{$('form').hide();$('.cg2_form_holder').append($('<h3 style="display: block;text-align: center;color: #fa8c39;">Thank you. Your request has been successfully submitted.</h3>').hide().fadeIn(700));}}); event.preventDefault();});});</script>
+        <link rel="stylesheet" type="text/css" href="https://www.westnet-internet.com/files/main_style.css?1514912827" title="wsite-theme-css" />
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <link href='//fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+        <link href='//fonts.googleapis.com/css?family=Coustard&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+        <link href='//cdn2.editmysite.com/fonts/Sansation/font.css?2' rel='stylesheet' type='text/css' />
+        <!-- <link href="https://mristic.com/westnet/style.css?ver=1.0.0" rel='stylesheet' type="text/css"></link> -->
+        <link href="https://mristic.com/westnet/style.css?ver=1.0.0" rel='stylesheet' type="text/css"></link>
+        <!--[if lte IE 7]>
+	<style type='text/css'> #topstrip {width:960px; margin: 0 auto; /* set width for IE7 */}</style>
+<![endif]-->
+        <div id="toptextwrap">
+            <!--[if lte IE 8]>
+	<style type='text/css'> #toptextwrap {width:860px; margin: 0 auto; /* set width for IE8 */}</style>
+<![endif]-->
+            <div id="topstriptext">
+                <!--[if lte IE 8]>
+	<style type='text/css'> #topstriptext {float:initial; clear:both; /* fix for IE8 */}</style>
+<![endif]-->
+            </div>
+        </div>
+    </div>
+    <div id="menuwrap">
+        <!--[if lte IE 7]>
+	<style type='text/css'> #menuwrap {width:960px; margin: 0 auto; /* set width for IE7 */}</style>
+<![endif]-->
+        <div id="menu">
+            <!--[if lte IE 8]>
+	<style type='text/css'> #menu {width:860px; margin: 0 auto;/* set width for IE8 */}</style>
+<![endif]-->
+            <div id="menulogo">
+                <a href="/"><img src="/files/theme/images/westnet_logo2-opt.png" class="menulogo" height="60px"></a>
+            </div>
+            <div id="menuright">
+                <ul class="wsite-menu-default">
+                    <li id="pg396264803735886048" class="wsite-menu-item-wrap wsite-nav-1" style="position: relative;">
+                        <a href="/about.html" class="wsite-menu-item" style="position: relative;">
+				About
+			</a>
+                    </li>
+                    <li id="pg162514230816210124" class="wsite-menu-item-wrap wsite-nav-2" style="position: relative;">
+                        <a href="/services.html" class="wsite-menu-item" style="position: relative;">
+				Services
+			</a>
+                    </li>
+                    <li id="active" class="wsite-menu-item-wrap wsite-nav-3" style="position: relative;">
+                        <a href="/coverage.html" class="wsite-menu-item" style="position: relative;">
+				Coverage
+			</a>
+                    </li>
+                    <li id="pg600828601699930256" class="wsite-menu-item-wrap wsite-nav-4" style="position: relative;">
+                        <a href="/contact.html" class="wsite-menu-item" style="position: relative;">
+				Contact
+			</a>
+                    </li>
+                </ul>
+            </div>
+            <!--[if lte IE 7]>
+	<style type='text/css'> #menuright {top:-30px; /* set width for IE7 */}</style>
+<![endif]-->
+            <div id="searchwrap">
+                <!--[if lte IE 8]>
+	<style type='text/css'> #searchwrap {position:relative; /* set width for IE8 */}</style>
+<![endif]-->
+                <!--[if lte IE 7]>
+	<style type='text/css'> #searchwrap {top:-95px; /* set width for IE7 */}</style>
+<![endif]-->
+                <form class="wsite-search-element-form" action="/apps/search" method="get">
+                    <div class="wsite-search-element">
+                        <input class="wsite-input wsite-search-element-input" type="text" name="q" placeholder="Search" autocomplete="off">
+                        <span class="wsite-search-element-submit" title="Search"></span>
+                    </div>
+                </form>
+            </div>
+            <div id="menubutton">
+                <a href="#" id="toggle" onclick="showorhide('mobimenu');showorhide2('mobimenubottom')" hidefocus="hidefocus">
+                    <img src="/files/theme/images/menuicon4.png" style="height:65px;width:65px;border:0">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="menuhider">
+        <div id="mobimenu" class="hidden">
+            <!--<div id="mobimenu">-->
+            <ul class="wsite-menu-default">
+                <li id="pg396264803735886048" class="wsite-menu-item-wrap">
+                    <a href="/about.html" class="wsite-menu-item">
+				About
+			</a>
+                </li>
+                <li id="pg162514230816210124" class="wsite-menu-item-wrap">
+                    <a href="/services.html" class="wsite-menu-item">
+				Services
+			</a>
+                </li>
+                <li id="active" class="wsite-menu-item-wrap">
+                    <a href="/coverage.html" class="wsite-menu-item">
+				Coverage
+			</a>
+                </li>
+                <li id="pg600828601699930256" class="wsite-menu-item-wrap">
+                    <a href="/contact.html" class="wsite-menu-item">
+				Contact
+			</a>
+                </li>
+            </ul>
+        </div>
+        <div id="mobimenubottom" class="hidden">
+            <!--<div id="mobimenubottom">-->
+            <!--<img class="cartaccountbuttonsmobi" border="0" alt="My Account" src="/files/theme/cartbuttonmobi3.png" width="26px" height="25px">-->
+            <div id="searchwrapmobi">
+                <form class="wsite-search-element-form" action="/apps/search" method="get">
+                    <div class="wsite-search-element">
+                        <input class="wsite-input wsite-search-element-input" type="text" name="q" placeholder="Search" autocomplete="off">
+                        <span class="wsite-search-element-submit" title="Search"></span>
+                    </div>
+                </form>
+            </div>
+            <div id="mobistriptext">
+                <!--<a href="/about-us">About</a> 
+| <a href="/Contact">Contact</a>-->
+            </div>
+        </div>
+    </div>
+    <div id="wrapper">
+        <!--[if lte IE 8]>
+	<style type='text/css'> #wrapper {width:960px; margin: 0 auto; /* set width for IE8 */}</style>
+<![endif]-->
+        <div id="contentwrap">
+            <!--[if lte IE 8]>
+	<style type='text/css'> #contentwrap {width:960px; /* set width for IE8 */}</style>
+<![endif]-->
+            <div id="content">
+                <!--[if lte IE 8]>
+	<style type='text/css'> #content {width:860px;} .tiledmenu {width:668px;/* set width for IE8 */}</style>
+<![endif]-->
+                <!--[if lte IE 7]>
+	<style type='text/css'> #content {padding-top:50px; /* set width for IE7 */}</style>
+<![endif]-->
+                <div id="wsite-content" class="wsite-elements wsite-not-footer">
+
+
+                	<!-- ---------------------------------->
+
+                        <div id="cg2_lp_content"></div>
+
+                    <!-- ---------------------------------->
+
+                </div>
+            </div>
+        </div>
+        <div id="bottomstrip">
+            <!--[if lte IE 8]>
+	<style type='text/css'> #bottomstrip {width:100%; /* set width for IE8 */}</style>
+<![endif]-->
+            <div id="bottomstriptext">
+                <!--[if lte IE 8]>
+	<style type='text/css'> #bottomstriptext {width:960px; margin: 0 auto; /* set width for IE8 */}</style>
+<![endif]-->
+                <!--<a href="/sitemap.html">Site Map</a>-->
+            </div>
+        </div>
+        <div id="foot">
+            <!--[if lte IE 8]>
+	<style type='text/css'> #foot {width:860px; /* set width for IE8 */}</style>
+<![endif]-->
+            <div class="wsite-elements wsite-footer">
+                <div>
+                    <div class="wsite-multicol">
+                        <div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+                            <table class="wsite-multicol-table">
+                                <tbody class="wsite-multicol-tbody">
+                                    <tr class="wsite-multicol-tr">
+                                        <td class="wsite-multicol-col" style="width:54.635761589404%; padding:0 15px;">
+                                            <div class="paragraph" style="text-align:left;"><a href="/">Home</a>
+                                                <br><a href="/small-business.html">Small Business</a>
+                                                <br><a href="/midsize-business.html">&#8203;Midsize Business&#8203;</a>
+                                                <br><a href="/enterprise.html">&#8203;Enterprise</a>
+                                                <br><a href="/about.html">About Us</a>
+                                                <br><a href="/services.html">&#8203;Our Services</a>
+                                                <br><a href="/coverage.html">Coverage</a>
+                                                <br><a href="/contact.html">Contact</a></div>
+                                            <div class="wsite-spacer" style="height:50px;"></div>
+                                        </td>
+                                        <td class="wsite-multicol-col" style="width:45.364238410596%; padding:0 15px;">
+                                            <div class="paragraph" style="text-align:right;">
+                                                <font size="1">6220 McLeod Drive, Suite 100
+                                                    <br>Las Vegas, NV 89120
+                                                    <br>PHONE : &nbsp;</font><strong><font size="1">(702) 454 2682</font></strong>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                <font size="1">© 2018 WestNet</font>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--[if lte IE 8]>
+	<style type='text/css'> html {width:100%; min-width: 960px; /* set width for IE8 */}</style>
+<![endif]-->
+    <div style="display:none"><span style="visibility:hidden">WestNet</span></div>
+    <div id="wsite-menus"></div>
+</body>
+
+</html>

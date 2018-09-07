@@ -1,0 +1,432 @@
+html, body{ height: 100%; background-color: #035f7b; min-width:320px;}
+ .signup-button-wrap { width:100%; height:auto; text-align:center; }
+ .signup-button { margin: 20px auto; padding: 5px; max-width:450px; min-height:32px; background-color: #fa8c39; text-decoration:none; font-size: 25px; }
+ .signup-button-wrap a { text-decoration:none; }
+ .signup-button-wrap a:link {color:#fff;}
+ .signup-button-wrap a:visited {color:#fff;}
+ .signup-button-wrap a:hover {color:#F8DC39;}
+ .signup-button-wrap a:active {color:#fff;}
+ #home-banner-top a {text-decoration:none;}
+ #home-banner-top { position:relative; top:80px; height:480px; width:100%; background-image: url(theme/images/connection-image-wide2.jpg?1514912827); background-repeat: no-repeat; background-size:cover; overflow:hidden; }
+ #home-banner-top h3 { position:relative; height:auto; color:#fff; font-family: "freight-macro-pro"; font-style: bold; font-weight: 500; font-size:60px; text-wrap:normal; top:100px; line-height:60px; max-width: 960px; padding: 0 50px 0 50px; margin: 0 auto; }
+ h1.home-banner-top-headline { position:relative; height:auto; color:#fff; font-family: "freight-macro-pro" !important; font-style: bold; font-weight: 500; font-size:60px; text-wrap:normal; top:100px; line-height:60px; max-width: 960px; padding: 0 50px 0 50px; margin: 0 auto; }
+ #home-banner-top div.paragraph { position:relative; height:auto; color:#fff; font-family: "freight-macro-pro"; font-style: normal; font-weight: 500; font-size:30px; text-wrap:normal; top:110px; max-width: 960px; padding: 0 50px 0 50px; margin: 0 auto; }
+ #home-banner-top p { position:relative; height:auto; color:#fff; font-family: "freight-macro-pro"; font-style: normal; font-weight: 500; font-size:30px; text-wrap:normal; top:110px; max-width: 960px; padding: 0 50px 0 50px; margin: 0 auto; }
+ #home-banner-button-wrapper { position:relative; top:130px; max-width: 960px; padding: 0 50px 0 50px; margin: 0 auto; }
+ #home-banner-button { width:160px; height:40px; background-color:#fa8c39; text-align:center; color:#fff; font-family: "freight-macro-pro"; font-style: normal; font-weight: 500; font-size:20px; padding-top:8px; position:relative; }
+ body{margin: 0; padding: 0;}
+ .sub-page-titles { width: 100%; height:auto; text-align:center; font-family: "freight-macro-pro"; font-style: normal; font-weight: 500; font-size:32px; text-transform:uppercase; padding-top:20px; padding-bottom:20px; color:#035f7b; }
+ h1.sub-page-titles { width: 100%; height:auto; text-align:center; font-family: "freight-macro-pro"; font-style: normal; font-weight: 500; font-size:32px; text-transform:uppercase; padding-top:20px; padding-bottom:20px; color:#035f7b; margin:0; }
+ #home-page-title-text { width: 100%; height:auto; text-align:center; font-family: "freight-macro-pro"; font-style: normal; font-weight: 500; font-size:30px; padding-top:20px; padding-bottom:20px; color:#035f7b; }
+ .home-image-link-tile { margin-top:10px; margin-bottom:10px; text-transform: uppercase; }
+ .home-tile-text { background-image: url(theme/tiles/tile-text-back2.png?1514912827); font-family: "freight-macro-pro"; font-style: normal; font-weight: 500; font-size:20px; color: #fff; width:100%; height: 40px; text-align:center; padding-top:10px; position:relative; line-height:15px; bottom:50px; margin-bottom:-50px; }
+ .home-image-link-tile a:link{text-decoration:none;}
+ .home-image-link-tile a:visited{ text-decoration:none;}
+ .home-image-link-tile a:hover{ text-decoration:none;}
+ .home-image-link-tile a:active{ text-decoration:none;}
+ .wsite-not-footer { font-size:14px; font-family: 'Montserrat', sans-serif; color: #3f3f3f; padding-top:5px; }
+ #wsite-search-list h3 { font-family: "freight-macro-pro"; font-style: normal; font-weight: 300; padding:0; color:#fa8c39; text-transform: uppercase; text-decoration:none; }
+ #wsite-search-list a {text-decoration:none;color:#fa8c39;}
+ .wsite-search-product-price-low { font-family: 'Montserrat', sans-serif; font-size: 16px; color:#3f3f3f; }
+ .wsite-search-product-price-high { font-family: 'Montserrat', sans-serif; font-size: 16px; color:#3f3f3f; }
+ #wsite-search-product-results .wsite-search-product-name { font-family: 'Montserrat', sans-serif; font-size: 14px; color:#84B14A; }
+ #wsite-search-product-results a{ text-decoration:none; }
+ #wsite-search-product-result-section h3 { font-family: 'Montserrat', sans-serif; font-size: 22px; color:#84B14A; }
+ #wsite-search-sidebar { display:none; }
+ #wsite-search-results { width:100%; }
+ #wsite-search-product-results .wsite-search-product-image-container { width:100%; height:100% !important; padding-bottom:100%; background-color:#fff; }
+ .wsite-search-element-submit { background:url(theme/search-light-opt.png?1514912827) left; }
+ #page-text-main { font-family: 'Montserrat', sans-serif; font-size: 16px; color:#3f3f3f; }
+ #topstrip { background-color: #035f7b; width:100%; height: 30px; margin:0; position: fixed; z-index:40; top: 0; }
+ #toptextwrap { margin: 0 auto; max-width: 980px; padding: 0 50px 0 50px; }
+ #topstriptext { position: relative; top: 8px; float: right; font-family: Arial, Helvetica, sans-serif; color: #fff; font-size:12px; font-weight: 500; }
+ #topstriptext a:link{ font-family: Arial, Helvetica, sans-serif; color: #fff; font-size:12px; font-weight: 500;text-decoration:none;}
+ #topstriptext a:visited{ font-family: Arial, Helvetica, sans-serif; color: #fff; font-size:12px; font-weight: 500;text-decoration:none;}
+ #topstriptext a:hover{ font-family: Arial, Helvetica, sans-serif; color: #fff; font-size:12px; font-weight: 500;text-decoration:none;}
+ #topstriptext a:active{ font-family: Arial, Helvetica, sans-serif; color: #fff; font-size:12px; font-weight: 500;text-decoration:none;}
+ #menuwrap { background-color: #eee; width: 100%; top:30px; position: fixed; z-index: 32; height: 70px; min-width:345px; border-width:0px 0px 2px 0px; border-style:solid; border-color:#ddd; }
+ #menuright { width:100%; height: 70px; left: 140px; max-width: 770px; position: relative; top:-47px; color:#000; }
+ #menu{ background-color: #eee; height: 70px; font-family: "freight-macro-pro"; font-style: normal; font-weight: 500; font-size: 22px; color: #035f7b; top: 0px; position: relative; z-index:40; padding: 0 50px 0 50px; margin: 0 auto; max-width: 960px; }
+ ul.wsite-menu-default li{ position:relative; left: 0%; top:0px; padding: 0; padding-left: 15px; padding-right: 0px; margin: 0; list-style-type: none; display: inline; color: #035f7b; font-style: normal; font-weight: 500 !important; }
+ #menulogo { position:relative; padding: 0; margin:0px; left: 0px; width:137px; height:45px; top: 5px; z-index:30; }
+ .wsite-menu-default a:link{ color: #035f7b; text-decoration:none; }
+ .wsite-menu-default a:visted{ color: #035f7b; text-decoration:none; }
+ .wsite-menu-default a:hover{ color: #fa8c39; text-decoration:none; }
+ .wsite-menu-default a:active{ color: #fa8c39; text-decoration:none; }
+ .wsite-menu-default.ul:link{ color:#035f7b; }
+ .wsite-menu-default.ul:visted{ color:#035f7b; }
+ .wsite-menu-default a { color: #035f7b; }
+ #searchwrap { position:relative; float: right; top:-120px; }
+ .wsite-search-element { width:120px; }
+ #wsite-search-header { display:none; }
+ .hidden { display:none; }
+ #menuhider { display:none; }
+ .cartaccountbuttonsmobi { position:relative; top:-10px; }
+ #searchwrapmobi { display:none; }
+ #menubutton { position:relative; float: right; top:-42px; right:-120px; display:none; }
+ #contentwrap { background-color: #fff; width: 100%; position:relative; top:80px; margin: 0 auto; }
+ .wsite-content-title { font-family: 'Montserrat', sans-serif; }
+ .wsite-content-title a:link {text-decoration:none;}
+ .wsite-content-title a:visited {text-decoration:none;}
+ .wsite-content-title a:hover {text-decoration:none;}
+ .wsite-content-title a:active {text-decoration:none;}
+ #content{ position:relative; background-color: #fff; min-height: 100%; padding: 30px 50px 0px 50px; margin: 0 auto; max-width: 960px; margin-top:-12px; border-style: solid; border-top-width: 2px; border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-color: #ede; }
+ #wsite-content { padding-bottom:25px !important; padding-top:20px !important; }
+ .mainpagetitles{ font-family: "vinyl",sans-serif; font-style: normal; font-weight: 400; font-size:3.5em; padding:.25em 0 .25em 0; color:#3f3f3f; text-transform: uppercase; }
+ .mainpagetitlessub{ font-family: "vinyl",sans-serif; font-style: normal; font-weight: 400; font-size:2em; padding:.25em 0 .25em 0; color:#3f3f3f; text-transform: uppercase; }
+ .mainpagetitlescov{ font-family: "vinyl",sans-serif; font-style: normal; font-weight: 400; font-size:3.5em; padding:.25em 0 .25em 0; color:#3f3f3f; text-transform: uppercase; }
+ .mainpagetitlescov a{ text-decoration:none; color:#84B14A; }
+ .mainpagetitlescov a:link{color:#84B14A;}
+ .mainpagetitlescov a:visited{color:#84B14A;}
+ .mainpagetitlescov a:hover{color:#F79320;}
+ .mainpagetitlescov a:active{color:#84B14A;}
+ .paragraph a:link {text-decoration:none;}
+ .paragraph a:visited {text-decoration:none;}
+ .paragraph a:hover {text-decoration:none;}
+ .paragraph a:active {text-decoration:none;}
+ #bottomstrip { background-color: #fa8c39; position:relative; width:100%; height: 36px; margin:0; z-index:20; top: 75px; }
+ #bottomstrip-services { background-color: #fa8c39; position:relative; width:100%; height: 52px; margin:0; z-index:20; top: 75px; }
+ #bottomstriptext { position: relative; top: 8px; margin: 0 auto; width:100%; text-align: center; font-family: Arial, Helvetica, sans-serif; color: #fff; font-size:.75em; font-weight: 500; display:none; }
+ #bottomstriptext a:link{ color:#fff; text-decoration:none;}
+ #bottomstriptext a:visited{color:#fff; text-decoration:none;}
+ #bottomstriptext a:hover{color:#fff; text-decoration:none;}
+ #bottomstriptext a:active{ color:#fff; text-decoration:none;}
+ #foot{ background-color: #035f7b; height: 200px; padding: 0% 50px 0% 50px; position: relative; bottom: -90px; margin: 0 auto; max-width: 960px; }
+ #foot h2 { font-family: 'Montserrat', sans-serif; font-size: 10px; color: #fff; }
+ #foot .paragraph { color: #fff; font-family: 'Montserrat', sans-serif; font-size: 10px; }
+ .wsite-footer a:link {text-decoration:none;}
+ .wsite-footer a:visited {text-decoration:none;}
+ .wsite-footer a:hover {text-decoration:none;}
+ .wsite-footer a:active {text-decoration:none;}
+ .tinyfoottext { font-family: 'Helvetica', Helvetica, Arial, sans-serif; font-size:8px; color: #fff; text-align:left; line-height:10px; }
+ .tinyfoottext2 { font-family: 'Helvetica', Helvetica, Arial, sans-serif; font-size:8px; color: #fff; text-align:left; line-height:10px; }
+ @media screen and (max-width: 1000px) {
+ #home-banner-top { background-image: url(theme/images/connection-image.jpg?1514912827); }
+ }
+ @media screen and (max-width: 800px) {
+ .wsite-menu-default a:link{ color: #035f7b; text-decoration:none; }
+ .wsite-menu-default a:visted{ color: #035f7b; text-decoration:none; }
+ .wsite-menu-default a:hover{ color: #fad837; text-decoration:none; }
+ .wsite-menu-default a:active{ color: #fad837; text-decoration:none; }
+ .wsite-menu-default.ul:link{ color:#035f7b; }
+ .wsite-menu-default.ul:visted{ color:#035f7b; }
+ .wsite-menu-default a { color: #035f7b; }
+ #foot { display:none; }
+ #bottomstriptext { display: table; }
+ #topstriptext { display:none; }
+ #menuright { display:none; }
+ #menubutton { display: inline; }
+ #menuhider { display:block; width:100%; margin: 0 auto; padding:0; background-color: #fff; padding-top:10px; top: 80px; position: relative; z-index:29; }
+ #mobimenubottom { height:120px; background-color: #fa8c39; margin: 0 auto-38px; margin-bottom: -32px; padding: 20px 38px 0px 38px; width:100%-76px; position: relative; z-index:29; overflow-x: hidden; }
+ #searchwrapmobi { position:relative; display: block; }
+ #socicons { position: relative; left: 130px; top: -30px; }
+ ul.wsite-menu-default li{ position:relative; top:5px; padding: 10px 0 0 10px; list-style-type: none; display: block; width:100%-10px; margin: 0 auto; background-color:#fff; height: 40px; font-family: "freight-macro-pro"; font-style: normal; font-weight: 300; font-size: 22px; }
+ #mobistriptext { position: relative; top: 20px; font-family: Coustard; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 500; color: #fff; font-size:15px; margin: 0 auto; width: 100%; }
+ #mobistriptext a:link { color: #fff; text-decoration:none;}
+ #mobistriptext a:visited {color: #fff; text-decoration:none;}
+ #mobistriptext a:hover {color: #fff; text-decoration:none;}
+ #mobistriptext a:active {color: #fff; text-decoration:none;}
+ #content { padding: 30px 25px 0px 25px; }
+ #widebanner{ display:none; }
+ #mobilebanner{ display:block; width:100%; height:auto; background-color:#58585b; }
+ .wsite-com-category-subcategory-name-text { font-size:26px; }
+ #page-text-main { font-size:14px; }
+ }
+ @media screen and (max-width: 750px) {
+ #home-banner-top { background-image: url(theme/images/connection-image-1x1.jpg?1514912827); }
+ }
+ @media screen and (max-width: 640px) {
+ #home-banner-top h3 {font-size:50px}
+ h1.home-banner-top-headline {font-size:50px}
+ #home-banner-top div.paragraph {font-size:20px}
+ #home-banner-top p {font-size:20px}
+ #home-banner-top h3 {line-height:50px}
+ h1.home-banner-top-headline {line-height:50px}
+ #home-banner-top div.paragraph {line-height:20px}
+ #home-banner-top p {line-height:20px}
+ #foot { display:none; }
+ #bottomstriptext { display: table; }
+ #menubutton { display: inline; }
+ .mainpagetitlescov { font-size:2.5em; }
+ .home-tile-text {font-size:15px; }
+ }
+ @media screen and (max-width: 540px) {
+ #home-banner-top h3 {font-size:40px}
+ h1.home-banner-top-headline {font-size:36px}
+ #home-banner-top div.paragraph {font-size:18px}
+ #home-banner-top p {font-size:18px}
+ #home-banner-top h3 {line-height:40px}
+ h1.home-banner-top-headline {line-height:40px}
+ #home-banner-top div.paragraph {line-height:18px}
+ #home-banner-top p {line-height:18px}
+ #home-page-title-text {font-size:25px;}
+ #wsite-search-product-results .wsite-search-product-name { font-size:12px; }
+ }
+ @media screen and (max-width: 480px) {
+ #home-page-title-text {font-size:22px;}
+ .home-tile-text {font-size:12px; }
+ .mainpagetitles{font-size:3em;}
+ .mainpagetitlescov { font-size:2em; }
+ }
+ @media screen and (max-width: 360px) {
+ #home-page-title-text {font-size:18px;}
+ .wsite-com-category-subcategory-name-text { font-size:9px; }
+ .wsite-com-category-product-name.wsite-com-link-text { font-size:10px; }
+ #wsite-search-product-results .wsite-search-product-name { font-size:10px; }
+ #wsite-com-checkout-list .wsite-com-checkout-item-image {height:70px; width:70px;}
+ .wsite-map iframe{margin-bottom:-5px !important;}
+ #wsite-com-checkout-list .wsite-com-checkout-item-variations {font-size:6px;}
+ .mainpagetitlescov { font-size:1.75em; }
+ .home-tile-text {font-size:10px; }
+ }
+ @media screen and (max-width: 320px) {
+ .home-tile-text {font-size:9px; }
+ }
+
+div.paragraph ul, div.paragraph ol { padding-left: 3em !important; margin: 5px 0 !important; }
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
+div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
+div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+
+
+
+
+/**************************************************/
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('Sansation-BoldItalic.woff2') format('woff2'),
+    url('Sansation-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('Sansation-Light.woff2') format('woff2'),
+    url('Sansation-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('Sansation-Regular.woff2') format('woff2'),
+    url('Sansation-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('Sansation-Italic.woff2') format('woff2'),
+    url('Sansation-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('Sansation-LightItalic.woff2') format('woff2'),
+    url('Sansation-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('Sansation-Bold.woff2') format('woff2'),
+    url('Sansation-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freight';
+    src: url('Freight-MicroBook.woff2') format('woff2'),
+    url('Freight-MicroBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cg2_banner {
+    min-height: 172px;
+    background-image: url(banner.png);
+    background-size: cover;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.cg2_banner_text {
+    display: inline-block;
+    font-family: 'Freight';
+    color: #fff;
+    max-width: 850px;
+    vertical-align: middle;
+    font-size: 32px;
+    line-height: normal;
+    padding: 15px;
+}
+.cg2_banner {
+   height: auto;
+   overflow: hidden;
+}
+.cg2_so {
+    width: auto;
+    max-width: 100%;
+}
+.cg2_right {
+    width: 180px;
+    float: right;    
+}
+.cg2_left {
+    float: none;     
+    width: auto;
+    overflow: hidden;
+    padding-right: 20px;
+}
+.cg2_wsite-content-title {
+    font-family:'Sansation';
+    font-size: 25px;
+    color: #0d5f7a;
+    font-weight:normal;
+}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {
+    font-family: "Open Sans" !important;
+}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {
+    font-size: 16px;
+}
+table .cg2_wsite-content-title, table .paragraph {
+    margin:0 !important;
+}
+.cg2_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.cg2_table tr {
+    border-bottom: 1px solid #b7b7b7 !important;
+}
+.cg2_table tr:last-child {
+    border-bottom: 1px solid transparent !important;
+}
+.cg2_table h2 {
+    font-size: 22px !important;
+}
+.has-error .help-block{
+    color: red;
+    text-align: left;
+}
+.cg2_frm_left, .cg2_frm_right {
+    display: inline-block; 
+    vertical-align: top;
+}
+.cg2_frm_left {
+    max-width: 554px;
+    width: 100%;
+}
+.cg2_frm_left .cg2_frm_filed {
+    width: 270px;
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 15px;
+    vertical-align: top;
+}
+.cg2_frm_left .cg2_frm_filed input {
+    width: 100%;
+    display: block;
+    height: 40px;
+    padding-left: 12px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    box-sizing:border-box
+}
+input[type="submit"] {
+    width: 100%;
+    font-size: 18px;
+    display: block;
+    box-sizing:border-box;
+    height: 45px !important;
+    background-color: #f88b44;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    border:none;
+    -webkit-box-shadow: 10px 10px 43px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 43px -5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 43px -5px rgba(0,0,0,0.75);
+}
+.cg2_label {
+    color: #7d7d7d;
+    font-size: 10px;
+    margin: 7px 0;
+    font-style: italic;
+}
+.cg2_form_holder {
+    background: #e2eff4;
+    border-top:5px solid #0d5f79;
+    padding: 20px 20px 70px 20px;
+    margin-top: 50px;
+}
+form {
+    text-align: center;
+}
+.cg2_frm_desc {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #0d5f79;
+    padding-bottom: 20px;
+    font-family:'Sansation';
+}
+.cg2_frm_desc span {
+    font-size: 16px;
+    line-height: 25px;
+}
+.cg2_l_left {
+    float: left;
+    width: auto;
+    max-width: 100%;
+}
+.cg2_l_right {
+    float: right;
+    margin-top: 46px;
+}
+.cg2_att_logos {
+    overflow: hidden;
+    margin-top: 46px;
+}
+.cg2_intro {
+    margin-top: 30px;
+}
+@media screen and (max-width: 600px) {
+    .cg2_right, .cg2_left {
+        float: none;
+    }
+    .cg2_right {
+        margin: auto;
+    }
+    .cg2_form_holder {
+        padding:0;
+        padding-bottom: 70px;
+    }
+    .cg2_frm_desc {
+        padding: 0 15px;
+    }
+}
+
+/********* REMOVE ***********/
+#bottomstrip, #foot, #menuwrap, #topstrip {
+    display: none;
+}
+body {
+    background-color: #fff;
+}
+#content {
+    border-color: transparent;
+}
